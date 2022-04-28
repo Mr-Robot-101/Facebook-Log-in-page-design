@@ -1,10 +1,50 @@
 <html>
   <head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8" />
+    <title>Facebook – log in or sign up</title>
+    <link
+      rel="shortcut icon"
+      href="https://github.com/sujonbd/Facebook-Log-in-page-design/raw/7fa527ea8766b5031b2c36ada445c86ebbe67318/fb-icon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <img
+            class="fb-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Facebook.svg/2560px-Facebook.svg.png"
+            alt="facebook"
+          />
+        </div>
 
+        <div class="login">
+          <form action="#" method="POST">
+            <div class="email">
+              <label for="email">Email or Phone</label>
+              <input type="text" id="email" />
+            </div>
+            <div class="pass">
+              <label for="pass">Password</label>
+              <input type="password" id="pass" />
+              <a href="#">Forgotten account?</a>
+            </div>
+            <div class="sub">
+              <input type="submit" value="Log In" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
