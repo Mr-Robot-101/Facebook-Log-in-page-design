@@ -1,0 +1,43 @@
+@media screen and (max-width: 980px) {
+  .logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom:10px;
+  }
+
+  .login {
+    width: 450px;
+    float: none;
+    margin: auto;
+  }
+  .login form {
+    float: none;
+  }
+}
+@media screen and (max-width: 768px) {
+ 
+  .login {
+    width: 100%;
+  }
+  .login .email,
+  .login .pass,
+  .login .sub {
+    float: none;
+    margin-right: 15px;
+   
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .login input[type="submit"] {
+    margin: 5px 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+.container {
+  width: 80%;
+}
+} 
