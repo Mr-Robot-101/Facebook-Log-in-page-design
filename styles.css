@@ -51,7 +51,8 @@ body {
 .login .sub {
   margin-right: 0px;
 }
-.login input[type='text'], .login input[type='password'] {
+.login input[type='text'],
+.login input[type='password'] {
   border: 1px solid black;
   font-size: 14px;
   padding: 2px 5px;
@@ -65,11 +66,48 @@ body {
 .login .pass a:hover {
   text-decoration: underline;
 }
-.login input[type="submit"] {
+.login input[type='submit'] {
   background-color: #4267b2;
   color: white;
   border: 1px solid #29487d;
   padding: 3px 8px;
   margin-top: 21px;
-
+}
+/*staring singup section */
+.singup {
+  padding: 10px 0px;
+}
+.singup ::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.left {
+  width: 55%;
+  float: left;
+}
+.left p {
+  font-size: 20px;
+  color: #0e385f;
+  font-weight: 600;
+  width: 90%;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  width: 45%;
+  float: left;
+}
+.right h2 {
+  font-size: 36px;
+  color: #333;
+  margin: 0px;
+}
+.right h4{
+  font-size: 19px;
+  color: #1d2129;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
