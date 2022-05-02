@@ -75,6 +75,7 @@ body {
 }
 /*staring singup section */
 .singup {
+  background: linear-gradient(#ffffff, #D4D9E9);
   padding: 10px 0px;
 }
 .singup ::after {
@@ -104,10 +105,131 @@ body {
   color: #333;
   margin: 0px;
 }
-.right h4{
+.right h4 {
   font-size: 19px;
   color: #1d2129;
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 10px;
 }
+
+.right input[type='text'],
+.right input[type='password'] {
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #bdc78d;
+  border-radius: 5px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  margin: 5px 0;
+}
+
+.full-name {
+overflow: hidden;
+}
+.first-name {
+width: 48%;
+float: left;
+margin-right: 4%;
+}
+.surname {
+width: 48%;
+float: left;
+}
+.birth {
+
+}
+.birth h4 {
+  font-size: 19px;
+  color: #1d2129;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.birth-date {
+overflow: hidden;
+float: left;
+margin-right: 10px;
+width: 200px;
+
+}
+.birth-date select {
+border: 1px solid #ccc;
+padding: 5px;
+float: left;
+}
+.birth-link {
+  float: left;
+  width: 184px;
+}
+.birth-link a {
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 1.1;
+  display: block;
+  font-weight: 600;
+  color: #365899;
+
+}
+.birth-link a:hover {
+  text-decoration: underline;
+}
+.gender label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1d2129;
+}
+.gender {
+  margin: 10px 0px;
+}
+.terms {
+margin-bottom: 20px;
+width: 80%  ;
+}
+.terms p {
+  color: #777;
+  font-size: 13px;
+
+}
+.terms a {
+  text-decoration: none;
+  color: #365899;
+}
+.terms a:hover {
+  text-decoration: underline;
+}
+ .submit input {
+  background: linear-gradient(#67ae55, #578843);
+  box-shadow: inset 0 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  color: white;
+  min-width: 194px;
+  text-align: center;
+  padding: 7px 14px;
+  border-radius: 3px;
+  border-style: solid;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.5s;
+ }
+ .submit input:hover {
+  background: linear-gradient(#578843, #67ae55) ;
+  cursor: pointer;
+
+  }
+  .submit {
+    margin-top: 10px;
+  }
+  .page-text {
+    font-weight: 600;
+    color: #666
+  }
+  .page-text a {
+    text-decoration: none;
+    color: #365899;
+  }
+  .page-text a:hover {
+    text-decoration: underline;
+
+
+  }
