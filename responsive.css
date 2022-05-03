@@ -14,6 +14,18 @@
   .login form {
     float: none;
   }
+  /*staring sing-up part @ */
+  .left {
+    width: 100%;
+    float: none;
+  }
+  .right {
+    width: 100%;
+    float: left;
+  }
+  .left p {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
  
@@ -39,5 +51,11 @@
 @media screen and (max-width: 480px) {
 .container {
   width: 80%;
-}
 } 
+}
+@media screen and (max-width: 623px) {
+  /*staring sing-up part @ */
+  .birth-link  {
+    margin-top: 10px;
+  }
+}
