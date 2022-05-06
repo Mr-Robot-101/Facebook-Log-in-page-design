@@ -190,6 +190,7 @@ body {
 .terms a {
   text-decoration: none;
   color: #365899;
+  display: inline-block;
 }
 .terms a:hover {
   text-decoration: underline;
@@ -222,6 +223,7 @@ body {
 .page-text a {
   text-decoration: none;
   color: #365899;
+  display: inline-block;
 }
 .page-text a:hover {
   text-decoration: underline;
